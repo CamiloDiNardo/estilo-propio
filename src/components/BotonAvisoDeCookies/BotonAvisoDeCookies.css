@@ -1,0 +1,31 @@
+.aviso-cookies .enlace {
+    color: #4DBFFF;
+    text-decoration: none;
+}
+
+.aviso-cookies .enlace:hover {
+    text-decoration: underline;
+}
+
+.enlace {
+font-size: 16px;
+cursor: pointer
+}
+@media screen and (max-width: 800px) {
+    .aviso-cookies .enlace {
+        color: #4DBFFF;
+        text-decoration: none;
+        font-size: 35px;
+    }
+    
+    .aviso-cookies .enlace:hover {
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1180px) {
+  .aviso-cookies .parrafo,
+  .aviso-cookies .boton,
+  .enlace {
+  font-size: 35px;
+  }
+}

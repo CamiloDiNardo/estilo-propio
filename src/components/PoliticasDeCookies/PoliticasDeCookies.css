@@ -1,0 +1,35 @@
+  .arreglo-doc{
+    color: black;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    min-height: 80vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, 0.25);
+  }
+  .enlace2 {
+    color: #4DBFFF;
+    text-decoration: none;
+}
+
+.enlace2:hover {
+  text-decoration: underline;
+}
+
+.enlace2 {
+font-size: 16px;
+cursor: pointer
+}
+@media screen and (max-width: 800px) {
+    /*informacion de cookies*/
+  .arreglo-doc{
+    max-width: none;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1180px) {
+ /*informacion de cookies*/
+ .arreglo-doc{
+  max-width: none;
+  }
+}

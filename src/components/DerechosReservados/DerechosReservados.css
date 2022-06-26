@@ -1,0 +1,27 @@
+.derechos {
+    display: flex;
+    width: 100%;
+    height: 96px;
+    background: #66a804;
+    justify-content: center;
+    align-items: center;
+  }
+  .derechos p {
+    font-size: 25px;
+    color: #fff;
+  }
+  @media screen and (max-width: 800px) {
+    /* "Derechos Reservados" Responsive*/
+    .derechos {
+      height: 150px;
+    }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1180px) {
+/* "Derechos Reservados"*/
+.derechos {
+  height: 200px;
+}
+.derechos p {
+  font-size: 50px;
+}
+  }

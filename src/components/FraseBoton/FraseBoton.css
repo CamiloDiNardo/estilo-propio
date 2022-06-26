@@ -1,0 +1,27 @@
+/* Frase escondida del boton*/
+.fraseProductos{
+    font-size: 25px;
+    color: #000;
+    cursor: text;
+    position: relative;
+    left: -85px;
+    height: 40px;
+    width: 320px;
+  }
+  @media screen and (max-width: 800px) {
+    /* Frase escondida del boton Responsive*/
+    .fraseProductos{
+      left: -85px;
+      height: 40px;
+      width: 320px;
+    }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1180px) {
+     /* Frase escondida del boton Responsive*/
+    .fraseProductos{
+      left: -210px;
+      height: 90px;
+      width: 550px;
+      font-size: 40px;
+    }
+  }

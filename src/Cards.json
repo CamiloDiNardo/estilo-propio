@@ -1,0 +1,14 @@
+[
+  {
+    "imagenes": "imagenes/IMG_Cómoda.png",
+    "texto": "Comoda"
+  },
+  {
+    "imagenes": "imagenes/IMG_MesaRatona.png",
+    "texto": "Mesa Ratona"
+  },
+  {
+    "imagenes": "imagenes/IMG_Sillon.png",
+    "texto": "Sillon"
+  }
+]

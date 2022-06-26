@@ -1,0 +1,42 @@
+.main-img2 {
+    background-image: url("/public/imagenes/SLIDER.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+  .main-img2 h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  .main-img2 p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 800px) {
+    .main-img2 h1 {
+      padding-top: 40px;
+    }
+    .main-img2 p {
+      font-size: 80px;
+    }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1180px) {
+    .main-img2 {
+      height: 700px;
+      padding-top: 100px;
+    }
+    .main-img2 h1 {
+      padding-top: 40px;
+      font-size: 80px;
+    }
+    .main-img2 p {
+      font-size: 110px;
+    }
+  }
