@@ -1,5 +1,5 @@
 {
-  "homepage": "http://camilodinardo.github.io/estilo-propio",
+  "homepage": "http://camilodinardo.github.io/estilo-propio/",
   "name": "estilo-propio",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,6 @@
     "eject": "react-scripts eject",
     "format": "prettier --write",
     "lint": "eslint --fix . --ext .js,.jsx"
-    
   },
   "eslintConfig": {
     "extends": [
